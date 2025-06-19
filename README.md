@@ -1,10 +1,10 @@
-# 🚢 Titanic Survival Prediction Using NumPy
+# Titanic Survival Prediction Using NumPy
 
 A machine learning project that implements **logistic regression from scratch using NumPy**, trained on the Titanic dataset to predict passenger survival outcomes. This project demonstrates core ML concepts such as gradient descent, binary cross-entropy loss, feature normalization, and accuracy evaluation—**without using any machine learning libraries**.
 
 ---
 
-## 📌 Project Objectives
+## Project Objectives
 
 - Understand and implement logistic regression from first principles  
 - Train a binary classification model using only `NumPy`  
@@ -14,7 +14,7 @@ A machine learning project that implements **logistic regression from scratch us
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 - **Source**: [Kaggle Titanic Dataset](https://www.kaggle.com/datasets/yasserh/titanic-dataset/data)  
 - **Shape**: 891 passengers × 12 columns  
@@ -26,7 +26,7 @@ Key features used for prediction:
 
 ---
 
-## 🧪 Technologies Used
+## Technologies Used
 
 - Python 3.12  
 - NumPy  
@@ -36,7 +36,7 @@ Key features used for prediction:
 
 ---
 
-## 🧼 Data Cleaning and Feature Engineering
+## Data Cleaning and Feature Engineering
 
 - Dropped irrelevant or sparsely populated columns: `Cabin`, `Ticket`, `Name`  
 - Filled missing values in `Age` (median) and `Embarked` (mode)  
@@ -46,7 +46,7 @@ Key features used for prediction:
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 - **Binary classifier** using logistic regression  
 - **Sigmoid activation** for output probabilities  
@@ -57,7 +57,7 @@ Key features used for prediction:
 
 ---
 
-## ✅ Results
+## Results
 
 - Final training accuracy: **79.80%**  
 - Clean loss convergence with stable learning behavior  
@@ -66,7 +66,7 @@ Key features used for prediction:
 
 ---
 
-## 📈 Future Improvements
+## Future Improvements
 
 - Add train/test split or cross-validation for better generalization  
 - Compare performance with `scikit-learn`’s implementation  
@@ -75,9 +75,9 @@ Key features used for prediction:
 
 ---
 
-## 🎯 Author
+## Author
 
-Created by **Dartayous**, a visual effects artist turned AI engineer.  
+Created by **Dartayous Hunter**, a visual effects artist turned AI engineer.  
 This project demonstrates analytical thinking, technical growth, and practical ML understanding—bridging years of storytelling expertise with AI innovation.
 
 > *“Coding the future one frame at a time.”*
