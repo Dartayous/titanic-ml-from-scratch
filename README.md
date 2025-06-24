@@ -19,13 +19,15 @@ titanic-ml-from-scratch is a hands-on machine learning project that explores sur
 
 ---
 
-## Project Objectives
+## 📦 Objective
 
-- Understand and implement logistic regression from first principles  
-- Train a binary classification model using only `NumPy`  
-- Explore and preprocess real-world tabular data  
-- Perform feature normalization and gradient descent  
-- Visualize model performance and track training loss
+In this notebook, we’ll build a machine learning pipeline from scratch to predict passenger survival on the Titanic. The project is focused on core data science skills: data cleaning, feature engineering, modeling, and evaluation—with explainability as a guiding principle. We will:
+
+  - Understand and implement logistic regression from first principles  
+  - Train a binary classification model using only `NumPy`  
+  - Explore and preprocess real-world tabular data  
+  - Perform feature normalization and gradient descent  
+  - Visualize model performance and track training loss
 
 ---
 
@@ -39,6 +41,10 @@ Key features used for prediction:
 - `Pclass`, `Sex`, `Age`, `Fare`  
 - `SibSp`, `Parch`, `Embarked_Q`, `Embarked_S` (one-hot encoded)
 
+## 🔍 Initial Observations
+
+Before diving into cleaning or modeling, we explore the structure and quality of the Titanic dataset. This includes identifying null values, data types, and any anomalies that could influence model performance.
+
 ---
 
 ## Technologies Used
@@ -51,15 +57,21 @@ Key features used for prediction:
 
 ---
 
-## Data Cleaning and Feature Engineering
+## 🛠️ Feature Engineering Rationale
 
-- Dropped irrelevant or sparsely populated columns: `Cabin`, `Ticket`, `Name`  
-- Filled missing values in `Age` (median) and `Embarked` (mode)  
-- Encoded `Sex` using label encoding (0 = male, 1 = female)  
-- One-hot encoded `Embarked` and dropped first category for multicollinearity  
-- Normalized features using z-score scaling
+Raw data isn’t always model-friendly. Here, we extract and transform key variables—like parsing titles from names and engineering a “FamilySize” metric—to uncover deeper patterns related to survival.
+
+  - Dropped irrelevant or sparsely populated columns: `Cabin`, `Ticket`, `Name`  
+  - Filled missing values in `Age` (median) and `Embarked` (mode)  
+  - Encoded `Sex` using label encoding (0 = male, 1 = female)  
+  - One-hot encoded `Embarked` and dropped first category for multicollinearity  
+  - Normalized features using z-score scaling
 
 ---
+
+## 🤖 Model Selection Strategy
+
+We begin with Logistic Regression as a baseline due to its simplicity and interpretability. We then test ensemble methods like Random Forest to compare accuracy, robustness, and feature importance insights.
 
 ## Model Architecture
 
@@ -72,12 +84,14 @@ Key features used for prediction:
 
 ---
 
-## Results
+## 📉 Evaluation Summary
 
-- Final training accuracy: **79.80%**  
-- Clean loss convergence with stable learning behavior  
-- Strong baseline for a model built completely from scratch  
-- Successfully mirrors the foundation of `scikit-learn`’s LogisticRegression
+Random Forest delivered the strongest accuracy and generalization ability among the tested models. Feature importance reveals that passenger sex, title, and fare played significant roles in survival prediction.
+
+  - Final training accuracy: **79.80%**  
+  - Clean loss convergence with stable learning behavior  
+  - Strong baseline for a model built completely from scratch  
+  - Successfully mirrors the foundation of `scikit-learn`’s LogisticRegression
 
 ---
 
