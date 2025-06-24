@@ -95,15 +95,16 @@ Random Forest delivered the strongest accuracy and generalization ability among 
 
 ---
 
-## 🚧 Future Improvements
+## 🚀 Future Improvements Aligned with ML Engineering Goals
 
-- 🔁 **Implement Cross-Validation** to assess model robustness across multiple data splits
-- 🧠 **Integrate XGBoost or LightGBM** for potentially higher predictive accuracy
-- 🔬 **Perform Hyperparameter Tuning** using GridSearchCV or RandomizedSearchCV
-- 🧱 **Add Feature Scaling Pipelines** for algorithms sensitive to variable range
-- 🖼️ **Enhance Data Visualizations** with interactive tools like Plotly
-- 🧪 **Introduce Model Explainability** techniques such as SHAP values or LIME
-- 🤖 **Wrap Model in a Flask API** for deployment or UI prototyping
+- 🔁 **Implement Cross-Validation** to assess model generalization across folds and reduce overfitting
+- 🎯 **Pipeline Modularization** using `sklearn.Pipeline` for cleaner preprocessing + model training flows
+- 🔍 **Hyperparameter Optimization** via `GridSearchCV` or `Optuna` to fine-tune performance
+- 🧠 **Expand Model Scope** by incorporating XGBoost, LightGBM, and Neural Networks for comparative benchmarking
+- 📊 **Track Experiments** using MLflow or Weights & Biases to version data, models, and metrics
+- 🛠️ **Improve Data Engineering** with automated missing-value handling, imputation, and data validation checks
+- 📤 **Export Final Model with Joblib or ONNX** for deployment flexibility across platforms
+- ⚙️ **Wrap into Flask or FastAPI Service** to simulate deployment and demonstrate full-stack ML workflow
 
 ---
 
