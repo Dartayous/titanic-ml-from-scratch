@@ -1,11 +1,21 @@
 <p align="center">
-  <img src="assets/TITANIC_Banner.png" alt="TITANIC Survival Outcomes - ML + Predictions" width="100%">
+  <img src="assets/TITANIC_Banner.png" alt="Titanic ML from Scratch" width="100%">
 </p>
 
 
 # Titanic Survival Prediction Using NumPy
 
-A machine learning project that implements **logistic regression from scratch using NumPy**, trained on the Titanic dataset to predict passenger survival outcomes. This project demonstrates core ML concepts such as gradient descent, binary cross-entropy loss, feature normalization, and accuracy evaluation—**without using any machine learning libraries**.
+titanic-ml-from-scratch is a hands-on machine learning project that explores survival prediction using the Titanic dataset. Built entirely from the ground up, it demonstrates core data science skills including data cleaning, feature engineering, exploratory visualization, and model evaluation. This project showcases proficiency in Python, pandas, seaborn, and scikit-learn, while emphasizing explainability and reproducibility—ideal for roles in data science, AI development, or ML engineering.
+
+---
+
+## 🧰 Key Highlights
+
+- 🧼 Cleaned and preprocessed raw Titanic data
+- 🧠 Engineered features like Title, FamilySize, and IsAlone
+- 📊 Visualized survival trends by class, age, gender, and fare
+- 🤖 Trained and evaluated models including Logistic Regression and Random Forest
+- 📈 Compared accuracy and feature importance to guide model selection
 
 ---
 
