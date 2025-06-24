@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="assets/TITANIC_Banner.png" alt="TITANIC Survival Outcomes - ML + Predictions" width="100%">
+</p>
+
+
 # Titanic Survival Prediction Using NumPy
 
 A machine learning project that implements **logistic regression from scratch using NumPy**, trained on the Titanic dataset to predict passenger survival outcomes. This project demonstrates core ML concepts such as gradient descent, binary cross-entropy loss, feature normalization, and accuracy evaluation—**without using any machine learning libraries**.
@@ -86,3 +91,5 @@ This project demonstrates analytical thinking, technical growth, and practical M
 [GitHub Portfolio (optional link)]
 
 ---
+
+Added custom banner to README
