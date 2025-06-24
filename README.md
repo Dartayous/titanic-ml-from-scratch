@@ -95,12 +95,15 @@ Random Forest delivered the strongest accuracy and generalization ability among 
 
 ---
 
-## Future Improvements
+## 🚧 Future Improvements
 
-- Add train/test split or cross-validation for better generalization  
-- Compare performance with `scikit-learn`’s implementation  
-- Package model into a CLI or web app using Flask or Streamlit  
-- Deploy the trained model as an API endpoint or microservice
+- 🔁 **Implement Cross-Validation** to assess model robustness across multiple data splits
+- 🧠 **Integrate XGBoost or LightGBM** for potentially higher predictive accuracy
+- 🔬 **Perform Hyperparameter Tuning** using GridSearchCV or RandomizedSearchCV
+- 🧱 **Add Feature Scaling Pipelines** for algorithms sensitive to variable range
+- 🖼️ **Enhance Data Visualizations** with interactive tools like Plotly
+- 🧪 **Introduce Model Explainability** techniques such as SHAP values or LIME
+- 🤖 **Wrap Model in a Flask API** for deployment or UI prototyping
 
 ---
 
